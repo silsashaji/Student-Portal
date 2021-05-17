@@ -1,1 +1,1 @@
-# Music-Equalizer
+# Student-Portal
