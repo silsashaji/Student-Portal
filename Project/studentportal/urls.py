@@ -14,10 +14,11 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import include,path
+from django.urls import path
+from Vividly import views
+from django.conf.urls import include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('Vividly/',include('Vividly.urls')),
-    path('accounts/',include('django.contrib.auth.urls'))
+    path('',include('Vividly.urls')),
 ]

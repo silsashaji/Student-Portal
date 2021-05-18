@@ -3,9 +3,5 @@ from django.http import HttpResponse
 
 # Create your views here.
 def index(request):
-    return HttpResponse("<h1>Welcome To Vividly Student Portal</h1>")
-
-
-def about(request):
-    return HttpResponse("<h1>Vividly About</h1>")
+    return HttpResponse("This is Home Page")
 
